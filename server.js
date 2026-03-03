@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 3001;
 const allowedOrigins = [
   process.env.FRONTEND_URL || "http://localhost:3000",
   process.env.ADMIN_URL || "http://localhost:3002",
-  "https://feedback-admin-ten.vercel.app/",
-  "https://feedback-rosy-iota.vercel.app/",
+  "https://feedback-admin-ten.vercel.app",
+  "https://feedback-rosy-iota.vercel.app",
 ];
 
 app.use(
