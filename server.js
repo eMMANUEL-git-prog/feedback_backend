@@ -14,6 +14,8 @@ const allowedOrigins = [
   process.env.ADMIN_URL || "http://localhost:3002",
   "https://feedback-admin-ten.vercel.app",
   "https://feedback-rosy-iota.vercel.app",
+  "https://feedback.sporttechies.com",
+  "https://admin.feedback.sporttechies.com",
 ];
 
 app.use(
